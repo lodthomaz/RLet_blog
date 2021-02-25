@@ -1,27 +1,22 @@
 baseURL: https://example.com
-title: RLet Blog
+title: Your title
 theme: hugo-theme-m10c
 paginate: 5
-publishDir: "docs/"
 menu:
   main:
     - identifier: home
       name: Home
       url: /
-    - identifier: about
-      name: About
-      url: /about/
     - identifier: tags
       name: Tags
       url: /tags/
 params:
-  author: Letícia Thomaz
+  author: John Doe
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula
     turpis sit amet elit pretium.
   menu_item_separator: ' - '
   social:
     - name: github
-      url: https://github.com/lodthomaz/
-    - name: linkedin
-      url: www.linkedin.com/in/leticiathomaz
-
+      url: https://github.com/gohugoio
+    - name: twitter
+      url: https://twitter.com/gohugoio
